@@ -4,8 +4,31 @@
     padding: 0;
 }
 
+body {
+    max-width: 960px;
+    display: flex;
+    flex-direction: column;
+}
+
+main {
+    display: flex;
+}
+
 header {
     background-color: rgb(216, 106, 66);
+    font-size: 1rem;
+    text-align: center;
+}
+.nav {
+    height: 50px;
+    padding: 10px;
+}
+
+.aside {
+    flex-basis: 50%;
+    flex-grow: 1;
+    padding: 10px;
+    text-align: center;
 }
 
 .aside1 {
@@ -16,8 +39,12 @@ header {
 }
 article {
     background-color: rgb(62, 183, 240);
+    flex-grow: auto;
+    padding: 10px;
 }
 
 footer {
     background-color: lightgreen;
+    font-size: 1rem;
+    text-align: center;
 }
