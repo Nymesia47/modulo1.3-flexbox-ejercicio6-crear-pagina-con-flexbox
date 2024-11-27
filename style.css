@@ -3,3 +3,21 @@
     margin: 0;
     padding: 0;
 }
+
+header {
+    background-color: rgb(216, 106, 66);
+}
+
+.aside1 {
+    background-color: gold;
+}
+.aside2 {
+    background-color: palevioletred;
+}
+article {
+    background-color: rgb(62, 183, 240);
+}
+
+footer {
+    background-color: lightgreen;
+}
